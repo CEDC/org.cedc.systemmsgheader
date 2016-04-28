@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <extension key="org.cedc.systemmsgheader" type="module">
   <file>systemmsgheader</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>System Messages Header/Footer</name>
+  <description>Add an option to use a header/footer on system workflow messages in CiviCRM.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Laryn - CEDC.org</author>
     <email>laryn@cedc.org</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/CEDC/org.cedc.systemmsgheader</url>
+    <url desc="Documentation">https://github.com/CEDC/org.cedc.systemmsgheader</url>
+    <url desc="Support">https://github.com/CEDC/org.cedc.systemmsgheader</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2016-04-28</releaseDate>
