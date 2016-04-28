@@ -115,8 +115,31 @@
           {/if}
           </div>
           {if !($type eq 'userTemplates')}
-            {* TODO - actually insert a checkbox here *}
-            Insert checkbox here.
+			{*
+				org.cedc.systemmsgheader
+				------------------------
+				Add an option to use default message header/footer on system workflow messages.
+			*}
+			<div class="crm-block crm-form-block crm-systemmsgheader-form-block">
+			    <div id="systemmsgheader" class="mailoption">
+			        <fieldset>
+			            <legend>{ts}Message Header/Footer Configuration{/ts}</legend>
+			            <table class="form-layout-compressed">
+			                <tr class="crm-systemmsgheader-form-block-systemmsgCheckbox">
+			                    <td class="label">{$form.systemmsgCheckbox.label}</td>
+			                    <td>{$form.systemmsgCheckbox.html}<br  />
+			                        <span class="description">{ts}You can optionally use the default header/footer on all system workflow templates.{/ts}
+			                        </span>
+			                    </td>
+			                </tr>
+			            </table>
+			        </fieldset>
+			    </div>
+			    <div class="spacer"></div>
+			    <div class="crm-submit-buttons">
+			        {include file="CRM/common/formButtons.tpl"}
+			    </div>
+			</div>
           {/if}
         <div>
           <p></p>
