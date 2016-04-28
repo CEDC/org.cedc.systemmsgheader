@@ -112,10 +112,12 @@
             {help id="id-intro"}
           {else}
             {ts}System workflow message templates are used to generate the emails sent to constituents and administrators for contribution receipts, event confirmations and many other workflows. You can customize the style and wording of these messages here.{/ts} {help id="id-system-workflow"}
+          {/if}
+          </div>
+          {if !$type eq 'userTemplates'}
             {* TODO - actually insert a checkbox here *}
             Insert checkbox here.
           {/if}
-          </div>
         <div>
           <p></p>
             {if !empty( $template_row) }
